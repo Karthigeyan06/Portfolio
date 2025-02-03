@@ -143,7 +143,7 @@ export default function Portfolio() {
   className="mt-8"
 >
   <a 
-    href="https://drive.google.com/file/d/1sGFONe17gWqnLKmK-m5iL9Nzty8ZhJWp/view?usp=sharing" //resumelink
+    href=https:"//drive.google.com/file/d/1l36ufzS9A0mS9TxpFyHkzczcn7EZBX95/view?usp=sharing" //resumelink
     target="_blank"
     className="inline-block px-8 py-3 text-lg font-medium text-white bg-transparent border-2 border-white rounded-full hover:bg-white hover:text-black transition-all duration-300 ease-in-out"
   >
