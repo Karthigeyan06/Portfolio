@@ -372,7 +372,7 @@ export default function Portfolio() {
               </motion.div>
               <motion.div whileHover={{ scale: 1.1 }} className="p-4 bg-gray-800 rounded-xl shadow-md">
                 <img src={ispSoftImg} alt="ISPSoft" className="mx-auto mb-2 w-12 h-12" />
-                <p className="text-center text-gray-400 font-medium">ISPSoft</p>
+                <p className="text-center text-gray-400 font-medium">ISPSoft</p> 
               </motion.div>
             </div>
           </div>
