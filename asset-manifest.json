@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.df1d9b5a.css",
+    "main.js": "/Portfolio/static/js/main.8d8634d4.js",
+    "static/media/project8.jpg": "/Portfolio/static/media/project8.d6e5ddbeec22a92eef2c.jpg",
+    "static/media/project4.jpg": "/Portfolio/static/media/project4.19f15133d4feabba25c1.jpg",
+    "static/media/project3.png": "/Portfolio/static/media/project3.a11bdcb51966804f693a.png",
+    "static/media/stm32_blue_pill.png": "/Portfolio/static/media/stm32_blue_pill.e671b5d322866bce0165.png",
+    "static/media/arduino_nano.png": "/Portfolio/static/media/arduino_nano.db6c4e24461c3700a696.png",
+    "static/media/esp8266.png": "/Portfolio/static/media/esp8266.6c4569851dff91d3681c.png",
+    "static/media/arduino_uno.png": "/Portfolio/static/media/arduino_uno.0a201d26ab08fb69ad98.png",
+    "static/media/arduino_ide.png": "/Portfolio/static/media/arduino_ide.7139bcc37d36e8aaa03b.png",
+    "static/media/raspberry_pi_pico.png": "/Portfolio/static/media/raspberry_pi_pico.b5312210281ea0cf76ed.png",
+    "static/media/csharp.png": "/Portfolio/static/media/csharp.278dc3863fa2025caf6f.png",
+    "static/media/matlab.jpg": "/Portfolio/static/media/matlab.709acbd1606aec9c6d61.jpg",
+    "static/media/project6.jpg": "/Portfolio/static/media/project6.ad524409311fb06337d8.jpg",
+    "static/media/project5.jpg": "/Portfolio/static/media/project5.7af499879e64a4bc27a8.jpg",
+    "static/media/project9.jpg": "/Portfolio/static/media/project9.0367627eb53ddb408337.jpg",
+    "static/media/project2.jpg": "/Portfolio/static/media/project2.c0270375ff97bbd01d5b.jpg",
+    "static/media/project1.jpg": "/Portfolio/static/media/project1.ec04549f68a271ae3ba5.jpg",
+    "static/media/verilog.jpg": "/Portfolio/static/media/verilog.9ef5477597cf527669f7.jpg",
+    "static/media/simatic_manager.png": "/Portfolio/static/media/simatic_manager.d158c55fa0560adde23f.png",
+    "static/media/project7.jpg": "/Portfolio/static/media/project7.4bf5ddebc1e31221fa3f.jpg",
+    "static/media/mitsubishi.png": "/Portfolio/static/media/mitsubishi.7a5c4653f4e5afd32287.png",
+    "static/media/sql.png": "/Portfolio/static/media/sql.92738ddcf81182a5de8f.png",
+    "static/media/c.jpg": "/Portfolio/static/media/c.bbbbbabc8c191bfb99bf.jpg",
+    "static/media/multisim.png": "/Portfolio/static/media/multisim.7a2cadb7f17e892fdc33.png",
+    "static/media/python.jpg": "/Portfolio/static/media/python.a0bc31a5087b611885e9.jpg",
+    "static/media/labview.png": "/Portfolio/static/media/labview.b1909b4c90962e05e444.png",
+    "static/media/quartus.png": "/Portfolio/static/media/quartus.47a26c8e55825c332d09.png",
+    "index.html": "/Portfolio/index.html",
+    "main.df1d9b5a.css.map": "/Portfolio/static/css/main.df1d9b5a.css.map",
+    "main.8d8634d4.js.map": "/Portfolio/static/js/main.8d8634d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df1d9b5a.css",
+    "static/js/main.8d8634d4.js"
+  ]
+}
