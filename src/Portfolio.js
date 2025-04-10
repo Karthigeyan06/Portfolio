@@ -1,5 +1,5 @@
 import React from 'react';
-import { Linkedin, Github, Mail } from 'lucide-react';
+import { Linkedin, Github, Mail, Phone } from 'lucide-react';
 import { motion } from 'framer-motion';
 import project1Image from './assets/images/project1.jpg';
 import project2Image from './assets/images/project2.jpg';
@@ -33,6 +33,12 @@ import stm32CUBEIDEImg from './assets/images/skills/stm32cubeide.png';
 import simaticManagerImg from './assets/images/skills/simatic_manager.png';
 import ispSoftImg from './assets/images/skills/isp_soft.png';
 import sqlImg from './assets/images/skills/sql.png';
+import htmlImg from './assets/images/skills/html.jpg';
+import cssImg from './assets/images/skills/css.jpg';  
+import javascriptImg from './assets/images/skills/javascript.jpg';
+import kicadImg from './assets/images/skills/kicad.jpg';
+import keilImag from './assets/images/skills/keil.jpg';
+import esp32Img from './assets/images/skills/esp32.png';
 
 
 export default function Portfolio() {
@@ -144,6 +150,7 @@ export default function Portfolio() {
     <a href="mailto:karthigeyanganesan06@gmail.com" className="text-gray-400 hover:text-cyan-400 transition"><Mail size={36} /></a>
     <a href="https://www.linkedin.com/in/karthigeyan-ganesan-203066257/" target="_blank" className="text-gray-400 hover:text-cyan-400 transition"><Linkedin size={36} /></a>
     <a href="https://github.com/Karthigeyan06" target="_blank" className="text-gray-400 hover:text-cyan-400 transition"><Github size={36} /></a>
+    <a href="tel:+919025456907" target="_blank" className="text-gray-400 hover:text-cyan-400 transition"><Phone size={36} /></a>
   </motion.div>
 
   <motion.div
@@ -153,11 +160,11 @@ export default function Portfolio() {
   className="mt-8"
 >
   <a 
-    href="https://drive.google.com/file/d/1sGFONe17gWqnLKmK-m5iL9Nzty8ZhJWp/view?usp=sharing" //resumelink
+    href="https://drive.google.com/file/d/1-aYnK_5kCcJfmCrmuoStjw9lSzGHNqDw/view?usp=sharing" //resumelink
     target="_blank"
     className="inline-block px-8 py-3 text-lg font-medium text-white bg-transparent border-2 border-white rounded-full hover:bg-white hover:text-black transition-all duration-300 ease-in-out"
   >
-    View Resume
+    View Resume 🡪
   </a>
 </motion.div>
 
@@ -181,7 +188,7 @@ export default function Portfolio() {
         >
           About Me
         </motion.h2>
-        <p className="text-center text-lg text-gray-400 max-w-3xl mx-auto">
+        <p className="text-center text-lg text-gray-400 max-w-3xl mx-auto font-poppins mb-12">
           I'm an Electronics & Communication Engineer with a passion for Embedded Systems and IoT. Over the years, I've worked on projects involving microcontrollers, automation systems using PLCs, and smart devices. My expertise spans across various platforms like Arduino, Raspberry Pi, and STM32, integrating them into real-world applications that solve practical problems.
         </p>
       </section>
@@ -216,7 +223,7 @@ export default function Portfolio() {
                   <h3 className="text-2xl font-semibold text-cyan-400 mb-2">{project.title}</h3>
                   <p className="text-gray-400 mb-4">{project.description}</p>
                   <button className="text-black bg-cyan-400 px-4 py-2 rounded-lg shadow-md hover:bg-pink-500 hover:text-white transition-transform transform hover:scale-105">
-                    View Project
+                    View Project 🡭
                   </button>
                 </div>
               </a>
@@ -225,7 +232,7 @@ export default function Portfolio() {
         </div>
 
         <div className="text-center mt-12">
-          <a href="https://github.com/Karthigeyan06" target="_blank" className="text-black bg-gradient-to-r from-cyan-400 to-purple-500 px-8 py-3 rounded-full shadow-lg hover:from-pink-500 hover:to-purple-600 transition-transform transform hover:scale-110">Explore More Projects on GitHub</a>
+          <a href="https://github.com/Karthigeyan06" target="_blank" className="text-black bg-gradient-to-r from-cyan-400 to-purple-500 px-8 py-3 rounded-full shadow-lg hover:from-pink-500 hover:to-purple-600 transition-transform transform hover:scale-110">Explore More Projects on GitHub 🡭</a>
         </div>
       </section>
 
@@ -240,6 +247,11 @@ export default function Portfolio() {
           Experience
         </motion.h2>
         <div className="max-w-4xl mx-auto space-y-8">
+        <div className="p-6 bg-gray-800 shadow-md rounded-2xl">
+            <h3 className="text-2xl font-semibold text-cyan-400">Kreotix Innovations</h3>
+            <p className="text-gray-400">Technical Lead | Feb 2025 – Present</p>
+            <p className="mt-2 text-gray-400">Managing and executing all technical activities of the startup, including website development, client solutions, and project implementation.</p>
+          </div>
           <div className="p-6 bg-gray-800 shadow-md rounded-2xl">
             <h3 className="text-2xl font-semibold text-cyan-400">Delphi-TVS Technologies Limited</h3>
             <p className="text-gray-400">Engineering Intern | Dec 2024 – Jan 2025</p>
@@ -250,6 +262,8 @@ export default function Portfolio() {
             <p className="text-gray-400">Techie Intern | Jan 2023 – Apr 2023</p>
             <p className="mt-2 text-gray-400">Enhanced WordPress websites and optimized user experience.</p>
           </div>
+
+          
         </div>
       </section>
 
@@ -261,7 +275,7 @@ export default function Portfolio() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl font-bold text-center mb-6 text-cyan-400"
+          className="text-4xl font-bold text-center mb-6 text-cyan-400 font-poppins"
         >
           Skills
         </motion.h2>
@@ -299,6 +313,18 @@ export default function Portfolio() {
                 <img src={sqlImg} alt="SQL" className="mx-auto mb-2 w-12 h-12" />
                 <p className="text-center text-gray-400 font-medium">SQL</p>
               </motion.div>
+              <motion.div whileHover={{ scale: 1.1 }} className="p-4 bg-gray-800 rounded-xl shadow-md">
+                <img src={htmlImg} alt="HTML" className="mx-auto mb-2 w-12 h-12" />
+                <p className="text-center text-gray-400 font-medium">HTML</p>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.1 }} className="p-4 bg-gray-800 rounded-xl shadow-md">
+                <img src={cssImg} alt="CSS" className="mx-auto mb-2 w-12 h-12" />
+                <p className="text-center text-gray-400 font-medium">CSS</p>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.1 }} className="p-4 bg-gray-800 rounded-xl shadow-md">
+                <img src={javascriptImg} alt="JAVASCRIPT" className="mx-auto mb-2 w-12 h-12" />
+                <p className="text-center text-gray-400 font-medium">JAVASCRIPT</p>
+              </motion.div>
             </div>
           </div>
 
@@ -325,6 +351,10 @@ export default function Portfolio() {
               <motion.div whileHover={{ scale: 1.1 }} className="p-4 bg-gray-800 rounded-xl shadow-md">
                 <img src={esp8266Img} alt="ESP8266" className="mx-auto mb-2 w-12 h-12" />
                 <p className="text-center text-gray-400 font-medium">ESP8266</p>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.1 }} className="p-4 bg-gray-800 rounded-xl shadow-md">
+                <img src={esp32Img} alt="ESP32" className="mx-auto mb-2 w-12 h-12" />
+                <p className="text-center text-gray-400 font-medium">ESP32</p>
               </motion.div>
             </div>
           </div>
@@ -384,6 +414,14 @@ export default function Portfolio() {
                 <img src={ispSoftImg} alt="ISPSoft" className="mx-auto mb-2 w-12 h-12" />
                 <p className="text-center text-gray-400 font-medium">ISPSoft</p> 
               </motion.div>
+              <motion.div whileHover={{ scale: 1.1 }} className="p-4 bg-gray-800 rounded-xl shadow-md">
+                <img src={kicadImg} alt="KICAD" className="mx-auto mb-2 w-12 h-12" />
+                <p className="text-center text-gray-400 font-medium">KICAD</p>
+              </motion.div>
+              <motion.div whileHover={{ scale: 1.1 }} className="p-4 bg-gray-800 rounded-xl shadow-md">
+                <img src={keilImag} alt="KEIL" className="mx-auto mb-2 w-12 h-12" />
+                <p className="text-center text-gray-400 font-medium">KEIL UVISION</p>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -427,6 +465,9 @@ export default function Portfolio() {
     </a>
     <a href="https://github.com/Karthigeyan06" target="_blank" className="text-gray-400 hover:text-cyan-400 transition">
       <Github size={36} />
+    </a>
+    <a href="tel:+919025456907" target="_blank" className="text-gray-400 hover:text-cyan-400 transition">
+      <Phone size={36} />
     </a>
   </div>
 </section>
