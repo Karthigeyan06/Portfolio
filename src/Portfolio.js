@@ -187,7 +187,7 @@ useEffect(() => {
     <a href="mailto:karthigeyanganesan06@gmail.com" className="text-gray-400 hover:text-cyan-400 transition"><Mail size={36} /></a>
     <a href="https://www.linkedin.com/in/karthigeyan-ganesan-203066257/" target="_blank" className="text-gray-400 hover:text-cyan-400 transition"><Linkedin size={36} /></a>
     <a href="https://github.com/Karthigeyan06" target="_blank" className="text-gray-400 hover:text-cyan-400 transition"><Github size={36} /></a>
-    <a href="tel:+919025456907" target="_blank" className="text-gray-400 hover:text-cyan-400 transition"><Phone size={36} /></a>
+    <a href="tel:+918428804975" target="_blank" className="text-gray-400 hover:text-cyan-400 transition"><Phone size={36} /></a>
   </motion.div>
 
   <motion.div
@@ -491,7 +491,7 @@ useEffect(() => {
     <a href="https://github.com/Karthigeyan06" target="_blank" className="text-gray-400 hover:text-cyan-400 transition">
       <Github size={36} />
     </a>
-    <a href="tel:+919025456907" target="_blank" className="text-gray-400 hover:text-cyan-400 transition">
+    <a href="tel:+918428804975" target="_blank" className="text-gray-400 hover:text-cyan-400 transition">
       <Phone size={36} />
     </a>
 
