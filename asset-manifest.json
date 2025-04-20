@@ -1,40 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a894502.css",
-    "main.js": "/static/js/main.82195756.js",
-    "static/media/project8.jpg": "/static/media/project8.d6e5ddbeec22a92eef2c.jpg",
-    "static/media/project4.jpg": "/static/media/project4.19f15133d4feabba25c1.jpg",
-    "static/media/project3.png": "/static/media/project3.a11bdcb51966804f693a.png",
-    "static/media/stm32_blue_pill.png": "/static/media/stm32_blue_pill.e671b5d322866bce0165.png",
-    "static/media/arduino_nano.png": "/static/media/arduino_nano.db6c4e24461c3700a696.png",
-    "static/media/esp8266.png": "/static/media/esp8266.6c4569851dff91d3681c.png",
-    "static/media/arduino_uno.png": "/static/media/arduino_uno.0a201d26ab08fb69ad98.png",
-    "static/media/arduino_ide.png": "/static/media/arduino_ide.7139bcc37d36e8aaa03b.png",
-    "static/media/raspberry_pi_pico.png": "/static/media/raspberry_pi_pico.b5312210281ea0cf76ed.png",
-    "static/media/csharp.png": "/static/media/csharp.278dc3863fa2025caf6f.png",
-    "static/media/esp32.png": "/static/media/esp32.33967bd931c7533b3d13.png",
-    "static/media/matlab.jpg": "/static/media/matlab.709acbd1606aec9c6d61.jpg",
-    "static/media/project6.jpg": "/static/media/project6.ad524409311fb06337d8.jpg",
-    "static/media/project5.jpg": "/static/media/project5.7af499879e64a4bc27a8.jpg",
-    "static/media/project9.jpg": "/static/media/project9.0367627eb53ddb408337.jpg",
-    "static/media/project2.jpg": "/static/media/project2.c0270375ff97bbd01d5b.jpg",
-    "static/media/project1.jpg": "/static/media/project1.ec04549f68a271ae3ba5.jpg",
-    "static/media/verilog.jpg": "/static/media/verilog.9ef5477597cf527669f7.jpg",
-    "static/media/simatic_manager.png": "/static/media/simatic_manager.d158c55fa0560adde23f.png",
-    "static/media/project7.jpg": "/static/media/project7.4bf5ddebc1e31221fa3f.jpg",
-    "static/media/mitsubishi.png": "/static/media/mitsubishi.7a5c4653f4e5afd32287.png",
-    "static/media/sql.png": "/static/media/sql.92738ddcf81182a5de8f.png",
-    "static/media/c.jpg": "/static/media/c.bbbbbabc8c191bfb99bf.jpg",
-    "static/media/multisim.png": "/static/media/multisim.7a2cadb7f17e892fdc33.png",
-    "static/media/python.jpg": "/static/media/python.a0bc31a5087b611885e9.jpg",
-    "static/media/labview.png": "/static/media/labview.b1909b4c90962e05e444.png",
-    "static/media/quartus.png": "/static/media/quartus.47a26c8e55825c332d09.png",
-    "index.html": "/index.html",
-    "main.4a894502.css.map": "/static/css/main.4a894502.css.map",
-    "main.82195756.js.map": "/static/js/main.82195756.js.map"
+    "main.js": "/static/js/main.31d6cfe0.js",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.4a894502.css",
-    "static/js/main.82195756.js"
+    "static/js/main.31d6cfe0.js"
   ]
 }
